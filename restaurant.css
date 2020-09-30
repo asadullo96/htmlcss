@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+} 
+.clear{
+    clear: both;
+}
+h1{
+    font-size: 1rem;
+}
+h2{
+    font-size: 2rem;
+    padding: 3rem 0rem;
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-size: 3rem;
+}
+h3{
+    font-size: 1rem;
+}
+button{
+    font-size: 1rem;
+}
+nav{
+    background: teal;
+    color: white;
+    padding: 3rem;
+}
+nav h1{
+    float: left;
+    font-size: 3rem;
+}
+nav ul{
+    float: right;
+    list-style: none;
+}
+nav li{
+    float: left;
+    margin: 0rem 4rem;
+}
+.hero-section {
+    background-image: url("https://d3af5evjz6cdzs.cloudfront.net/images/uploads/800x0/resized_m_0018_8beae2a65e98ff42e61cf4a4c6346a811574842482.jpg");
+    height: 100rem;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 15rem;
+    text-shadow: 3px 3px 3px black;
+} .hero-section h2{
+font-size: 5rem;
+}
+.hero-section button{
+    margin-top: 4rem;
+    padding: 1rem 4rem;
+    background: blue;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.form-section{
+    text-align: center;
+}
+form{
+
+}
+form input,
+form label,
+form textarea{
+text-align: center;
+display: block;
+font-size: 2rem;
+}
+form input,
+form textarea{
+    margin: 2rem auto;
+    width: 50%;
+}
+form button{
+    text-align: center;
+    margin-bottom: 10rem;
+    padding: 1rem 4rem;
+    background: gray;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
